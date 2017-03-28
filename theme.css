@@ -1,0 +1,144 @@
+@font-face { 
+	font-family: "Open Sans"; 
+	font-style: normal;
+	font-weight: 400;
+	src: url('../font/OpenSans-Regular.ttf'); 
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+body {
+	background: #eceef0;
+	overflow-y: scroll;
+	color: #888;
+	line-height: 1.5em;
+	font-size: 15px;
+	font-family: Sans-Serif, Arial, Tahoma;
+	text-align: center;
+}
+
+#navigation {
+	position: fixed;
+	padding-left: 1.8em;
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+	float: left; 
+	z-index: 50;
+	box-sizing: border-box;
+	background: rgb(44, 43, 43);
+}
+
+#navigation ul { 
+	overflow: hidden;
+	float: right; 
+    margin: 0;
+    padding: 0;
+	list-style-type: none; }
+
+#navigation li { float: left; }
+
+#navigation li a { 
+	padding: 29px 55px 27px 0px;
+    display: block;
+    color: #aaa;
+	font-family: Sans-Serif, Arial, Tahoma;
+	font-size: 15px;
+    text-align: center;
+    text-decoration: none; }
+
+#navigation li:first-child {
+	padding-left: 0;
+}
+	
+#navigation li:last-child {
+	margin-right: -1em;
+}
+
+#navigation ul li a:hover {
+	color: rgb(37, 97, 157);
+}
+
+#navigation .navlogo {
+	padding-top: 2em;
+	float: left;
+	letter-spacing: -1px; 
+}
+
+#navigation .navlogo a { 
+	color: #aaa;
+	font-size: 25px; 
+	font-family: Sans-Serif, Arial, Tahoma; 
+}
+
+#navigation .navlogo a:hover { 
+	color: #2980B9; 
+}
+
+a:link,
+a:visited { 
+	text-decoration: none;
+	color: #25aae3;
+	transition: all 0.3s ease 0s; 
+		-webkit-transition: all 0.3s ease 0s;
+		-moz-transition: all 0.3s ease 0s;
+		-o-transition: all 0.3s ease 0s;
+		-ms-transition: all 0.3s ease 0s; 
+}
+
+h1 { 
+	font-weight: 300;
+	font-size: 26px; 
+	color: #444; 
+	margin: -10px 0px 8px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #e6e6e6;
+	text-align: left;
+}
+
+h2 { 
+	font-weight: 300;
+	font-size: 24px; 
+	color: #555; 
+	margin: -10px 0px 8px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+h3 { 
+	font-weight: 300;
+	font-size: 22px; 
+	color: #555; 
+	margin: -10px 0px 5px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+p {
+	color: #555;
+}
+
+#footer {
+	margin: 4em 0 2em;
+	padding: 2em 0em 1em;
+	width: 100%;
+	height: auto;
+	float: left;
+	text-align: center;
+	font-size: 13px;
+	font-family: "Open Sans", Sans-Serif, Arial;
+	position: absolute;
+	bottom: 0px;
+}
+
+.wrapper {
+	margin: auto auto;
+	width: 80%;
+	min-width: 1117px;
+	max-width: 1140px;
+}
