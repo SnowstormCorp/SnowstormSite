@@ -1,11 +1,11 @@
-# Snowstorm Website
-This is the Snowstorm Corporation website (www.snowstorm.cf) This site is NOT hosted on GitHub. This is just so people can re use the code.
+#Snowstorm Corp., Ltd Website
 
-## Important Notice
-If you're going to use this, you'll need to edit the code to point to theme.css on **ALL THREE WEBPAGES!**
-Example: Change
-<link rel="stylesheet" href="WebCode/theme.css" type="text/css" />
-over to
-<link rel="stylesheet" href="funnytheme.css" type="text/css" />
+Hey folks, this is a **customized** version of our website (www.snowstorm.cf) that is free for you to use!
 
-The site will not work otherwise. The company logo is **not included** either.
+##Editing the code
+
+You can use **any text editor** to edit this. We use Notepad++ and sometimes Visual Studio Code. Have fun!
+
+##Use
+
+You can use this for anything you want. However, you can **not** use this to impersonate Snowstorm Corporation in ANY way and can not include any refrence to our company. You **do not need to credit us**.
